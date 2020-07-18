@@ -1,0 +1,10 @@
+Programming is a creative process that instructs a computer on how to do a task. Hollywood has helped instill an image of programmers as uber techies who can sit down at a computer and break any password in seconds. The reality is far less interesting.
+
+
+So Programming Is Boring? 
+Computers do what they are told, and their instructions come in the form of programs written by humans. Many knowledgeable computer programmers write source code that can be read by humans but not by computers. In many cases, that source code is compiled to translate the source code into machine code, which can be read by computers but not by humans. These compiled computer programming languages include:
+
+Sharing Programming Code
+Many programmers write software as a creative outlet. The web is full of websites with source code developed by amateur programmers who do it for fun and are happy to share their code. Linux started this way when Linus Torvalds shared code he had written.
+
+The intellectual effort in writing a medium-sized program is comparable to writing a book, except you never need to debug a book. Computer programmers find joy in discovering new ways to make something happen or in solving a particularly thorny problem. 

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="baseUrl" value="https://webappframework20200717075613.azurewebsites.net/" />
+    <Parameter name="browser" value="chrome" />
+    <Parameter name="connectionString" value="Data Source=tcp:webappframeworkdbserver.database.windows.net,1433;Initial Catalog=CourseManagementSystem.Models.SchoolContext;User ID=itupskilling@webappframeworkdbserver;Password=Betterwater2020" />    
+  </TestRunParameters>
+</RunSettings>  
