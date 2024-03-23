@@ -42,5 +42,7 @@ namespace CourseManagementUITestAutomation.StepDefinitions
                 Assert.IsTrue(_homePage.VerifyThatAModuleIsClickable(expectedModule.Module, counter));
             }
         }
+
+        
     }
 }

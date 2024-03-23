@@ -140,6 +140,7 @@
     <Compile Include="SetUp\DatabaseHelper.cs" />
     <Compile Include="SetUp\WebDriverExtension.cs" />
     <Compile Include="StepDefinitions\CommonSteps.cs" />
+    <Compile Include="StepDefinitions\CoursePageSteps.cs" />
     <Compile Include="StepDefinitions\HomePageSteps.cs" />
     <Compile Include="StepDefinitions\StudentSteps.cs" />
   </ItemGroup>
