@@ -3,7 +3,7 @@ As a Course Management System (CMS) user
 I should be able to Create, Modify, View and Delete
 A Student record
 
-Background: 
+Background:
 	Given that the CMS application is loaded
 	When a user clicks on Students link
 
@@ -25,8 +25,8 @@ Scenario: Student_02_TableFormat_Verify that a user can create a new student rec
 	#When a user clicks on Students link
 	When a user clicks on Create New link
 	And a user fills-in new student record form page with the data below
-	| FamilyName | FirstName | EnrollmentDate |
-	| Tadar      | Eric      | 04/07/2020     |	
+		| FamilyName | FirstName | EnrollmentDate |
+		| Tadar      | Eric      | 04/07/2020     |
 	And a user clicks on Create button
 	Then a new Student record Eric must be created
 
@@ -38,7 +38,7 @@ Scenario Outline: Student_03_Verify that multiple student records can be created
 	And a user fills-in a new student form page with <FamilyName>, <FirstName>, <EnrollmentDate> fields
 	And a user clicks on Create button
 	Then a new Student record <ExpectedResult> must be created
-	Examples: 
+Examples:
 	| FamilyName | FirstName | EnrollmentDate | ExpectedResult |
 	| Tadar3     | Eric3     | 2019/10/10     | Tadar3         |
 	| Tadar4     | Eric4     | 2019/10/10     | Tadar4         |
@@ -52,9 +52,9 @@ Scenario Outline: Student_04_Verify that a new student record cannot be created 
 	#When a user clicks on Students link
 	When a user clicks on Create New link
 	And a user fills-in a new student form page with <FamilyName>, <FirstName>, <EnrollmentDate> fields
-	And a user clicks on Create button	
+	And a user clicks on Create button
 	Then an error message <ExpectedErrorMessage> should be displayed
-	Examples: 
+Examples:
 	| FamilyName | FirstName | EnrollmentDate | ExpectedErrorMessage        |
 	| Tadar8     |           | 2019/10/10     | First name is required      |
 	|            | Eric9     | 2019/10/10     | Last name is required       |
@@ -78,5 +78,5 @@ Scenario: Student_06_Verify that a user can delete an existing student record
 	#Given that the CMS application is loaded
 	#When a user clicks on Students link
 	When a user clicks on Delete link
-	And a user clicks on Delete button on the form page	
-	Then a student record Eric should not be present 
+	And a user clicks on Delete button on the form page
+	Then a student record Eric should not be present
